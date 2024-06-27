@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:promilo/app_widgets/custom_bottom_bar.dart';
 import 'package:promilo/providers/bottom_bar_provider.dart';
+import 'package:promilo/screens/login_screen.dart';
 import 'package:provider/provider.dart';
 import 'screens/meetup_screen.dart';
 
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MainScreen(),
+      home: LoginScreen(),
     );
   }
 }
